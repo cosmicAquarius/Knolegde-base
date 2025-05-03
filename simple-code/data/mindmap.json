@@ -4,70 +4,16 @@
       "id": "Covid"
     },
     {
-      "id": "Vaccin"
-    },
-    {
-      "id": "Graph\u00e8ne"
-    },
-    {
-      "id": "USAID"
-    },
-    {
-      "id": "Manipulation"
-    },
-    {
-      "id": "Narratif"
-    },
-    {
-      "id": "Souverainet\u00e9 cognitive"
-    },
-    {
-      "id": "Censure"
-    },
-    {
-      "id": "Fact-checking"
-    },
-    {
-      "id": "Neurobiologie"
-    },
-    {
-      "id": "Inflammation"
-    },
-    {
-      "id": "Technocratie"
-    },
-    {
-      "id": "Propagande"
-    },
-    {
-      "id": "Alt\u00e9ration cognitive"
-    },
-    {
-      "id": "R\u00e9seaux de neurones"
-    },
-    {
-      "id": "Dip\u00f4le"
-    },
-    {
-      "id": "Fr\u00e9quences"
-    },
-    {
-      "id": "D\u00e9bat"
-    },
-    {
-      "id": "Anger trigger"
-    },
-    {
-      "id": "V\u00e9rit\u00e9"
-    },
-    {
-      "id": "Pand\u00e9mie"
+      "id": "Pandémie"
     },
     {
       "id": "Virus"
     },
     {
       "id": "SARS-CoV-2"
+    },
+    {
+      "id": "Vaccin"
     },
     {
       "id": "ARN messager"
@@ -79,52 +25,76 @@
       "id": "Adjuvants"
     },
     {
+      "id": "Graphène"
+    },
+    {
       "id": "Nanotubes"
     },
     {
-      "id": "Mat\u00e9riaux 2D"
+      "id": "Matériaux 2D"
     },
     {
       "id": "Conduction thermique"
     },
     {
-      "id": "Influence \u00e9trang\u00e8re"
+      "id": "USAID"
     },
     {
-      "id": "Subventions m\u00e9dias"
+      "id": "Influence étrangère"
     },
     {
-      "id": "G\u00e9opolitique"
+      "id": "Subventions médias"
     },
     {
-      "id": "Contr\u00f4le narratif"
+      "id": "Géopolitique"
+    },
+    {
+      "id": "Manipulation"
+    },
+    {
+      "id": "Contrôle narratif"
     },
     {
       "id": "Filtrage algorithmique"
     },
     {
-      "id": "Cadre rh\u00e9torique"
+      "id": "Narratif"
     },
     {
-      "id": "\u00c9ditorialisation"
+      "id": "Cadre rhétorique"
     },
     {
-      "id": "Autonomie de pens\u00e9e"
+      "id": "Éditorialisation"
     },
     {
-      "id": "Contr\u00f4le de l'information"
+      "id": "Souveraineté cognitive"
+    },
+    {
+      "id": "Autonomie de pensée"
+    },
+    {
+      "id": "Contrôle de l'information"
+    },
+    {
+      "id": "Censure"
     },
     {
       "id": "Suppression"
     },
     {
-      "id": "D\u00e9classement algorithmique"
+      "id": "Déclassement algorithmique"
     },
     {
-      "id": "D\u00e9bunking"
+      "id": "Fact-checking"
     },
     {
-      "id": "Sources valid\u00e9es"
+      "id": "Débunking"
+    },
+    {
+      "id": "Sources validées"
+    },
+    {
+      "id": "Neurobiologie"
     },
     {
       "id": "Synapses"
@@ -136,16 +106,25 @@
       "id": "Neurotransmetteurs"
     },
     {
+      "id": "Inflammation"
+    },
+    {
       "id": "Cytokines"
     },
     {
-      "id": "R\u00e9ponse immunitaire"
+      "id": "Réponse immunitaire"
+    },
+    {
+      "id": "Technocratie"
     },
     {
       "id": "Bureaucratie algorithmique"
     },
     {
-      "id": "D\u00e9cision automatis\u00e9e"
+      "id": "Décision automatisée"
+    },
+    {
+      "id": "Propagande"
     },
     {
       "id": "PsyOps"
@@ -154,10 +133,16 @@
       "id": "Information warfare"
     },
     {
-      "id": "Brume c\u00e9r\u00e9brale"
+      "id": "Altération cognitive"
     },
     {
-      "id": "D\u00e9ficit attentionnel"
+      "id": "Brume cérébrale"
+    },
+    {
+      "id": "Déficit attentionnel"
+    },
+    {
+      "id": "Réseaux de neurones"
     },
     {
       "id": "Apprentissage profond"
@@ -166,10 +151,16 @@
       "id": "Backpropagation"
     },
     {
+      "id": "Dipôle"
+    },
+    {
       "id": "Antenne"
     },
     {
       "id": "Transformation onde-tension"
+    },
+    {
+      "id": "Fréquences"
     },
     {
       "id": "EMF"
@@ -178,16 +169,25 @@
       "id": "Spectre hertzien"
     },
     {
+      "id": "Débat"
+    },
+    {
       "id": "Dialectique"
     },
     {
-      "id": "Rh\u00e9torique"
+      "id": "Rhétorique"
     },
     {
-      "id": "R\u00e9sistance narrative"
+      "id": "Anger trigger"
+    },
+    {
+      "id": "Résistance narrative"
     },
     {
       "id": "Viol cognitif"
+    },
+    {
+      "id": "Vérité"
     },
     {
       "id": "Faits"
@@ -202,7 +202,7 @@
   "links": [
     {
       "source": "Covid",
-      "target": "Pand\u00e9mie"
+      "target": "Pandémie"
     },
     {
       "source": "Covid",
@@ -225,32 +225,32 @@
       "target": "Adjuvants"
     },
     {
-      "source": "Graph\u00e8ne",
+      "source": "Graphène",
       "target": "Nanotubes"
     },
     {
-      "source": "Graph\u00e8ne",
-      "target": "Mat\u00e9riaux 2D"
+      "source": "Graphène",
+      "target": "Matériaux 2D"
     },
     {
-      "source": "Graph\u00e8ne",
+      "source": "Graphène",
       "target": "Conduction thermique"
     },
     {
       "source": "USAID",
-      "target": "Influence \u00e9trang\u00e8re"
+      "target": "Influence étrangère"
     },
     {
       "source": "USAID",
-      "target": "Subventions m\u00e9dias"
+      "target": "Subventions médias"
     },
     {
       "source": "USAID",
-      "target": "G\u00e9opolitique"
+      "target": "Géopolitique"
     },
     {
       "source": "Manipulation",
-      "target": "Contr\u00f4le narratif"
+      "target": "Contrôle narratif"
     },
     {
       "source": "Manipulation",
@@ -258,19 +258,19 @@
     },
     {
       "source": "Narratif",
-      "target": "Cadre rh\u00e9torique"
+      "target": "Cadre rhétorique"
     },
     {
       "source": "Narratif",
-      "target": "\u00c9ditorialisation"
+      "target": "Éditorialisation"
     },
     {
-      "source": "Souverainet\u00e9 cognitive",
-      "target": "Autonomie de pens\u00e9e"
+      "source": "Souveraineté cognitive",
+      "target": "Autonomie de pensée"
     },
     {
-      "source": "Souverainet\u00e9 cognitive",
-      "target": "Contr\u00f4le de l'information"
+      "source": "Souveraineté cognitive",
+      "target": "Contrôle de l'information"
     },
     {
       "source": "Censure",
@@ -278,15 +278,15 @@
     },
     {
       "source": "Censure",
-      "target": "D\u00e9classement algorithmique"
+      "target": "Déclassement algorithmique"
     },
     {
       "source": "Fact-checking",
-      "target": "D\u00e9bunking"
+      "target": "Débunking"
     },
     {
       "source": "Fact-checking",
-      "target": "Sources valid\u00e9es"
+      "target": "Sources validées"
     },
     {
       "source": "Neurobiologie",
@@ -306,7 +306,7 @@
     },
     {
       "source": "Inflammation",
-      "target": "R\u00e9ponse immunitaire"
+      "target": "Réponse immunitaire"
     },
     {
       "source": "Technocratie",
@@ -314,7 +314,7 @@
     },
     {
       "source": "Technocratie",
-      "target": "D\u00e9cision automatis\u00e9e"
+      "target": "Décision automatisée"
     },
     {
       "source": "Propagande",
@@ -325,63 +325,63 @@
       "target": "Information warfare"
     },
     {
-      "source": "Alt\u00e9ration cognitive",
-      "target": "Brume c\u00e9r\u00e9brale"
+      "source": "Altération cognitive",
+      "target": "Brume cérébrale"
     },
     {
-      "source": "Alt\u00e9ration cognitive",
-      "target": "D\u00e9ficit attentionnel"
+      "source": "Altération cognitive",
+      "target": "Déficit attentionnel"
     },
     {
-      "source": "R\u00e9seaux de neurones",
+      "source": "Réseaux de neurones",
       "target": "Apprentissage profond"
     },
     {
-      "source": "R\u00e9seaux de neurones",
+      "source": "Réseaux de neurones",
       "target": "Backpropagation"
     },
     {
-      "source": "Dip\u00f4le",
+      "source": "Dipôle",
       "target": "Antenne"
     },
     {
-      "source": "Dip\u00f4le",
+      "source": "Dipôle",
       "target": "Transformation onde-tension"
     },
     {
-      "source": "Fr\u00e9quences",
+      "source": "Fréquences",
       "target": "EMF"
     },
     {
-      "source": "Fr\u00e9quences",
+      "source": "Fréquences",
       "target": "Spectre hertzien"
     },
     {
-      "source": "D\u00e9bat",
+      "source": "Débat",
       "target": "Dialectique"
     },
     {
-      "source": "D\u00e9bat",
-      "target": "Rh\u00e9torique"
+      "source": "Débat",
+      "target": "Rhétorique"
     },
     {
       "source": "Anger trigger",
-      "target": "R\u00e9sistance narrative"
+      "target": "Résistance narrative"
     },
     {
       "source": "Anger trigger",
       "target": "Viol cognitif"
     },
     {
-      "source": "V\u00e9rit\u00e9",
+      "source": "Vérité",
       "target": "Faits"
     },
     {
-      "source": "V\u00e9rit\u00e9",
+      "source": "Vérité",
       "target": "Empirisme"
     },
     {
-      "source": "V\u00e9rit\u00e9",
+      "source": "Vérité",
       "target": "Preuves"
     }
   ]

@@ -120,7 +120,19 @@
                         event.subject.fy = null;
                     });
             }
+        })
+        .catch(error => {
+
+            const loading = document.getElementById("loading");
+            if (loading) {
+                loading.innerText = "Échec du chargement : " + error.message;
+                loading.style.color = "red";
+            } else {
+                alert("Erreur critique : " + error.message);
+            }
+            console.error("Erreur lors du chargement du graphe :", error);
         });
+    ;
 </script>
 </body>
 </html>
