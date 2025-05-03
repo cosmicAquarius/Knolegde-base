@@ -9,12 +9,58 @@
             background-color: #000;
             color: #fff;
             font-family: sans-serif;
+            overflow: hidden;
+        }
+
+        #menu {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100vh;
+            background: #111;
+            padding: 10px;
+            box-sizing: border-box;
+            border-right: 1px solid #444;
+            z-index: 10;
+        }
+
+        #menu h2 {
+            font-size: 14px;
+            margin-top: 0;
+            color: #ccc;
+        }
+
+        #menu button {
+            display: block;
+            width: 100%;
+            margin: 5px 0;
+            padding: 8px;
+            background: #222;
+            color: #fff;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        #menu button:hover {
+            background: #333;
+        }
+
+        #loading {
+            position: absolute;
+            top: 10px;
+            left: 210px;
+            color: white;
+            z-index: 10;
         }
 
         svg {
-            width: 100vw;
+            position: absolute;
+            left: 200px;
+            top: 0;
+            width: calc(100vw - 200px);
             height: 100vh;
-            display: block;
         }
 
         circle {
@@ -36,103 +82,132 @@
     </style>
 </head>
 <body>
+
+<div id="menu">
+    <h2>Graphes</h2>
+    <button onclick="loadGraph('mindmap.json')">Mindmap</button>
+    <button onclick="loadGraph('sabotage.json')">Sabotage</button>
+</div>
+
+<div id="loading">Chargement...</div>
 <svg></svg>
+
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
     const svg = d3.select("svg");
-    const width = window.innerWidth;
+    const width = window.innerWidth - 200;
     const height = window.innerHeight;
-
     const zoomLayer = svg.append("g");
 
     svg.call(
         d3.zoom()
             .scaleExtent([0.1, 4])
-            .on("zoom", (event) => {
-                zoomLayer.attr("transform", event.transform);
-            })
+            .on("zoom", event => zoomLayer.attr("transform", event.transform))
     );
 
-    fetch("../data/mindmap.json")
-        .then(response => response.json())
-        .then(data => {
-            const simulation = d3.forceSimulation(data.nodes)
-                .force("link", d3.forceLink(data.links)
-                    .id(d => d.id)
-                    .distance(150)) // 🟠 Plus petit = plus proche
-                .force("charge", d3.forceManyBody()
-                    .strength(-100)) // 🟠 Moins négatif = moins de répulsion
-                .force("center", d3.forceCenter(width / 2, height / 2));
+    let simulation = null;
 
-            const link = zoomLayer.append("g")
-                .attr("stroke-width", 1.5)
-                .selectAll("line")
-                .data(data.links)
-                .join("line");
-
-            const node = zoomLayer.append("g")
-                .attr("stroke", "#fff")
-                .attr("stroke-width", 1.5)
-                .selectAll("circle")
-                .data(data.nodes)
-                .join("circle")
-                .attr("r", 8)
-                .call(drag(simulation));
-
-            const label = zoomLayer.append("g")
-                .selectAll("text")
-                .data(data.nodes)
-                .join("text")
-                .text(d => d.id)
-                .attr("x", 12)
-                .attr("y", ".31em");
-
-            simulation.on("tick", () => {
-                link
-                    .attr("x1", d => d.source.x)
-                    .attr("y1", d => d.source.y)
-                    .attr("x2", d => d.target.x)
-                    .attr("y2", d => d.target.y);
-
-                node
-                    .attr("cx", d => d.x)
-                    .attr("cy", d => d.y);
-
-                label
-                    .attr("x", d => d.x + 12)
-                    .attr("y", d => d.y);
+    function drag(simulation) {
+        return d3.drag()
+            .on("start", event => {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                event.subject.fx = event.subject.x;
+                event.subject.fy = event.subject.y;
+            })
+            .on("drag", event => {
+                event.subject.fx = event.x;
+                event.subject.fy = event.y;
+            })
+            .on("end", event => {
+                if (!event.active) simulation.alphaTarget(0);
+                event.subject.fx = null;
+                event.subject.fy = null;
             });
+    }
 
-            function drag(simulation) {
-                return d3.drag()
-                    .on("start", event => {
-                        if (!event.active) simulation.alphaTarget(0.3).restart();
-                        event.subject.fx = event.subject.x;
-                        event.subject.fy = event.subject.y;
-                    })
-                    .on("drag", event => {
-                        event.subject.fx = event.x;
-                        event.subject.fy = event.y;
-                    })
-                    .on("end", event => {
-                        if (!event.active) simulation.alphaTarget(0);
-                        event.subject.fx = null;
-                        event.subject.fy = null;
-                    });
-            }
-        })
-        .catch(error => {
+    function loadGraph(fileName) {
+        let loading = document.getElementById("loading");
+        if (!loading) {
+            loading = document.createElement("div");
+            loading.id = "loading";
+            loading.style.position = "absolute";
+            loading.style.top = "10px";
+            loading.style.left = "210px";
+            loading.style.color = "white";
+            loading.style.zIndex = "10";
+            document.body.appendChild(loading);
+        }
+        loading.innerText = "Chargement...";
+        loading.style.color = "white";
 
-            const loading = document.getElementById("loading");
-            if (loading) {
-                loading.innerText = "Échec du chargement : " + error.message;
-                loading.style.color = "red";
-            } else {
-                alert("Erreur critique : " + error.message);
-            }
-            console.error("Erreur lors du chargement du graphe :", error);
-        });
-    ;
+        fetch("../data/" + fileName)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Erreur HTTP " + response.status);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (simulation) simulation.stop();
+                zoomLayer.selectAll("*").remove();
+
+                simulation = d3.forceSimulation(data.nodes)
+                    .force("link", d3.forceLink(data.links).id(d => d.id).distance(150))
+                    .force("charge", d3.forceManyBody().strength(-100))
+                    .force("center", d3.forceCenter(width / 2, height / 2));
+
+                const link = zoomLayer.append("g")
+                    .attr("stroke-width", 1.5)
+                    .selectAll("line")
+                    .data(data.links)
+                    .join("line");
+
+                const node = zoomLayer.append("g")
+                    .attr("stroke", "#fff")
+                    .attr("stroke-width", 1.5)
+                    .selectAll("circle")
+                    .data(data.nodes)
+                    .join("circle")
+                    .attr("r", 8)
+                    .call(drag(simulation));
+
+                const label = zoomLayer.append("g")
+                    .selectAll("text")
+                    .data(data.nodes)
+                    .join("text")
+                    .text(d => d.id)
+                    .attr("x", 12)
+                    .attr("y", ".31em");
+
+                simulation.on("tick", () => {
+                    link
+                        .attr("x1", d => d.source.x)
+                        .attr("y1", d => d.source.y)
+                        .attr("x2", d => d.target.x)
+                        .attr("y2", d => d.target.y);
+
+                    node
+                        .attr("cx", d => d.x)
+                        .attr("cy", d => d.y);
+
+                    label
+                        .attr("x", d => d.x + 12)
+                        .attr("y", d => d.y);
+                });
+
+                loading.remove();
+            })
+            .catch(error => {
+                const loading = document.getElementById("loading");
+                if (loading) {
+                    loading.innerText = "Échec du chargement : " + error.message;
+                    loading.style.color = "red";
+                }
+                console.error("Erreur de chargement :", error);
+            });
+    }
+
+    loadGraph("mindmap.json"); // Chargement initial
 </script>
 </body>
 </html>

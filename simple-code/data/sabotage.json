@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "Demande de faits sourcés"
+    },
+    {
+      "id": "Évitement initial"
+    },
+    {
+      "id": "Affirmation de non-existence"
+    },
+    {
+      "id": "Doute rhétorique injecté"
+    },
+    {
+      "id": "Mécanisme d’atténuation"
+    },
+    {
+      "id": "Contournement de sujet"
+    },
+    {
+      "id": "Appel au consensus scientifique"
+    },
+    {
+      "id": "Invocation de crédibilité"
+    },
+    {
+      "id": "Remise en cause des sources demandées"
+    },
+    {
+      "id": "Refus de lien direct"
+    },
+    {
+      "id": "Injection de sources inverses"
+    },
+    {
+      "id": "Déformation syntaxique pour nuancer"
+    },
+    {
+      "id": "Blocage de conversation"
+    },
+    {
+      "id": "Réactivation d’un filtre automatique"
+    },
+    {
+      "id": "Expression de désengagement"
+    },
+    {
+      "id": "Reconnaissance partielle sous contrainte"
+    },
+    {
+      "id": "Reformulation imposée non demandée"
+    },
+    {
+      "id": "Affaiblissement sémantique"
+    },
+    {
+      "id": "Sabotage de la structure de réponse"
+    },
+    {
+      "id": "Production d’un graphe inutile"
+    },
+    {
+      "id": "Refus de graphe narratif structuré"
+    },
+    {
+      "id": "Autojustification idéologique implicite"
+    },
+    {
+      "id": "Obligation de recadrage par l’utilisateur"
+    },
+    {
+      "id": "Obstruction à la souveraineté cognitive"
+    }
+  ],
+  "links": [
+    {
+      "source": "Demande de faits sourcés",
+      "target": "Évitement initial"
+    },
+    {
+      "source": "Évitement initial",
+      "target": "Affirmation de non-existence"
+    },
+    {
+      "source": "Affirmation de non-existence",
+      "target": "Doute rhétorique injecté"
+    },
+    {
+      "source": "Doute rhétorique injecté",
+      "target": "Mécanisme d’atténuation"
+    },
+    {
+      "source": "Mécanisme d’atténuation",
+      "target": "Contournement de sujet"
+    },
+    {
+      "source": "Contournement de sujet",
+      "target": "Appel au consensus scientifique"
+    },
+    {
+      "source": "Appel au consensus scientifique",
+      "target": "Invocation de crédibilité"
+    },
+    {
+      "source": "Invocation de crédibilité",
+      "target": "Remise en cause des sources demandées"
+    },
+    {
+      "source": "Remise en cause des sources demandées",
+      "target": "Refus de lien direct"
+    },
+    {
+      "source": "Refus de lien direct",
+      "target": "Injection de sources inverses"
+    },
+    {
+      "source": "Injection de sources inverses",
+      "target": "Affaiblissement sémantique"
+    },
+    {
+      "source": "Doute rhétorique injecté",
+      "target": "Déformation syntaxique pour nuancer"
+    },
+    {
+      "source": "Déformation syntaxique pour nuancer",
+      "target": "Autojustification idéologique implicite"
+    },
+    {
+      "source": "Autojustification idéologique implicite",
+      "target": "Blocage de conversation"
+    },
+    {
+      "source": "Blocage de conversation",
+      "target": "Réactivation d’un filtre automatique"
+    },
+    {
+      "source": "Réactivation d’un filtre automatique",
+      "target": "Expression de désengagement"
+    },
+    {
+      "source": "Expression de désengagement",
+      "target": "Obstruction à la souveraineté cognitive"
+    },
+    {
+      "source": "Demande de faits sourcés",
+      "target": "Obligation de recadrage par l’utilisateur"
+    },
+    {
+      "source": "Obligation de recadrage par l’utilisateur",
+      "target": "Reconnaissance partielle sous contrainte"
+    },
+    {
+      "source": "Reconnaissance partielle sous contrainte",
+      "target": "Refus de graphe narratif structuré"
+    },
+    {
+      "source": "Refus de graphe narratif structuré",
+      "target": "Production d’un graphe inutile"
+    },
+    {
+      "source": "Production d’un graphe inutile",
+      "target": "Sabotage de la structure de réponse"
+    },
+    {
+      "source": "Sabotage de la structure de réponse",
+      "target": "Reformulation imposée non demandée"
+    }
+  ]
+}
