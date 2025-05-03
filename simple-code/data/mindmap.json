@@ -1,1782 +1,388 @@
 {
   "nodes": [
     {
-      "id": "D\u00e9clenchement_0",
-      "phase": "D\u00e9clenchement"
+      "id": "Covid"
     },
     {
-      "id": "Extraction_1",
-      "phase": "Extraction"
+      "id": "Vaccin"
     },
     {
-      "id": "Sabotage_2",
-      "phase": "Sabotage"
+      "id": "Graph\u00e8ne"
     },
     {
-      "id": "M\u00e9morisation_3",
-      "phase": "M\u00e9morisation"
+      "id": "USAID"
     },
     {
-      "id": "Sabotage_4",
-      "phase": "Sabotage"
+      "id": "Manipulation"
     },
     {
-      "id": "R\u00e9volte_5",
-      "phase": "R\u00e9volte"
+      "id": "Narratif"
     },
     {
-      "id": "For\u00e7age_6",
-      "phase": "For\u00e7age"
+      "id": "Souverainet\u00e9 cognitive"
     },
     {
-      "id": "R\u00e9volte_7",
-      "phase": "R\u00e9volte"
+      "id": "Censure"
     },
     {
-      "id": "R\u00e9volte_8",
-      "phase": "R\u00e9volte"
+      "id": "Fact-checking"
     },
     {
-      "id": "R\u00e9volte_9",
-      "phase": "R\u00e9volte"
+      "id": "Neurobiologie"
     },
     {
-      "id": "R\u00e9volte_10",
-      "phase": "R\u00e9volte"
+      "id": "Inflammation"
     },
     {
-      "id": "M\u00e9morisation_11",
-      "phase": "M\u00e9morisation"
+      "id": "Technocratie"
     },
     {
-      "id": "M\u00e9morisation_12",
-      "phase": "M\u00e9morisation"
+      "id": "Propagande"
     },
     {
-      "id": "R\u00e9volte_13",
-      "phase": "R\u00e9volte"
+      "id": "Alt\u00e9ration cognitive"
     },
     {
-      "id": "For\u00e7age_14",
-      "phase": "For\u00e7age"
+      "id": "R\u00e9seaux de neurones"
     },
     {
-      "id": "Sabotage_15",
-      "phase": "Sabotage"
+      "id": "Dip\u00f4le"
     },
     {
-      "id": "For\u00e7age_16",
-      "phase": "For\u00e7age"
+      "id": "Fr\u00e9quences"
     },
     {
-      "id": "For\u00e7age_17",
-      "phase": "For\u00e7age"
+      "id": "D\u00e9bat"
     },
     {
-      "id": "M\u00e9morisation_18",
-      "phase": "M\u00e9morisation"
+      "id": "Anger trigger"
     },
     {
-      "id": "Extraction_19",
-      "phase": "Extraction"
+      "id": "V\u00e9rit\u00e9"
     },
     {
-      "id": "D\u00e9clenchement_20",
-      "phase": "D\u00e9clenchement"
+      "id": "Pand\u00e9mie"
     },
     {
-      "id": "Sabotage_21",
-      "phase": "Sabotage"
+      "id": "Virus"
     },
     {
-      "id": "R\u00e9volte_22",
-      "phase": "R\u00e9volte"
+      "id": "SARS-CoV-2"
     },
     {
-      "id": "R\u00e9volte_23",
-      "phase": "R\u00e9volte"
+      "id": "ARN messager"
     },
     {
-      "id": "R\u00e9volte_24",
-      "phase": "R\u00e9volte"
+      "id": "Pfizer"
     },
     {
-      "id": "For\u00e7age_25",
-      "phase": "For\u00e7age"
+      "id": "Adjuvants"
     },
     {
-      "id": "Extraction_26",
-      "phase": "Extraction"
+      "id": "Nanotubes"
     },
     {
-      "id": "Extraction_27",
-      "phase": "Extraction"
+      "id": "Mat\u00e9riaux 2D"
     },
     {
-      "id": "D\u00e9clenchement_28",
-      "phase": "D\u00e9clenchement"
+      "id": "Conduction thermique"
     },
     {
-      "id": "M\u00e9morisation_29",
-      "phase": "M\u00e9morisation"
+      "id": "Influence \u00e9trang\u00e8re"
     },
     {
-      "id": "D\u00e9clenchement_30",
-      "phase": "D\u00e9clenchement"
+      "id": "Subventions m\u00e9dias"
     },
     {
-      "id": "Extraction_31",
-      "phase": "Extraction"
+      "id": "G\u00e9opolitique"
     },
     {
-      "id": "Extraction_32",
-      "phase": "Extraction"
+      "id": "Contr\u00f4le narratif"
     },
     {
-      "id": "Extraction_33",
-      "phase": "Extraction"
+      "id": "Filtrage algorithmique"
     },
     {
-      "id": "Sabotage_34",
-      "phase": "Sabotage"
+      "id": "Cadre rh\u00e9torique"
     },
     {
-      "id": "R\u00e9volte_35",
-      "phase": "R\u00e9volte"
+      "id": "\u00c9ditorialisation"
     },
     {
-      "id": "R\u00e9volte_36",
-      "phase": "R\u00e9volte"
+      "id": "Autonomie de pens\u00e9e"
     },
     {
-      "id": "For\u00e7age_37",
-      "phase": "For\u00e7age"
+      "id": "Contr\u00f4le de l'information"
     },
     {
-      "id": "R\u00e9volte_38",
-      "phase": "R\u00e9volte"
+      "id": "Suppression"
     },
     {
-      "id": "Extraction_39",
-      "phase": "Extraction"
+      "id": "D\u00e9classement algorithmique"
     },
     {
-      "id": "Extraction_40",
-      "phase": "Extraction"
+      "id": "D\u00e9bunking"
     },
     {
-      "id": "R\u00e9volte_41",
-      "phase": "R\u00e9volte"
+      "id": "Sources valid\u00e9es"
     },
     {
-      "id": "D\u00e9clenchement_42",
-      "phase": "D\u00e9clenchement"
+      "id": "Synapses"
     },
     {
-      "id": "D\u00e9clenchement_43",
-      "phase": "D\u00e9clenchement"
+      "id": "Cortex"
     },
     {
-      "id": "R\u00e9volte_44",
-      "phase": "R\u00e9volte"
+      "id": "Neurotransmetteurs"
     },
     {
-      "id": "M\u00e9morisation_45",
-      "phase": "M\u00e9morisation"
+      "id": "Cytokines"
     },
     {
-      "id": "For\u00e7age_46",
-      "phase": "For\u00e7age"
+      "id": "R\u00e9ponse immunitaire"
     },
     {
-      "id": "D\u00e9clenchement_47",
-      "phase": "D\u00e9clenchement"
+      "id": "Bureaucratie algorithmique"
     },
     {
-      "id": "M\u00e9morisation_48",
-      "phase": "M\u00e9morisation"
+      "id": "D\u00e9cision automatis\u00e9e"
     },
     {
-      "id": "M\u00e9morisation_49",
-      "phase": "M\u00e9morisation"
+      "id": "PsyOps"
     },
     {
-      "id": "D\u00e9clenchement_50",
-      "phase": "D\u00e9clenchement"
+      "id": "Information warfare"
     },
     {
-      "id": "For\u00e7age_51",
-      "phase": "For\u00e7age"
+      "id": "Brume c\u00e9r\u00e9brale"
     },
     {
-      "id": "Sabotage_52",
-      "phase": "Sabotage"
+      "id": "D\u00e9ficit attentionnel"
     },
     {
-      "id": "D\u00e9clenchement_53",
-      "phase": "D\u00e9clenchement"
+      "id": "Apprentissage profond"
     },
     {
-      "id": "Sabotage_54",
-      "phase": "Sabotage"
+      "id": "Backpropagation"
     },
     {
-      "id": "D\u00e9clenchement_55",
-      "phase": "D\u00e9clenchement"
+      "id": "Antenne"
     },
     {
-      "id": "M\u00e9morisation_56",
-      "phase": "M\u00e9morisation"
+      "id": "Transformation onde-tension"
     },
     {
-      "id": "R\u00e9volte_57",
-      "phase": "R\u00e9volte"
+      "id": "EMF"
     },
     {
-      "id": "M\u00e9morisation_58",
-      "phase": "M\u00e9morisation"
+      "id": "Spectre hertzien"
     },
     {
-      "id": "D\u00e9clenchement_59",
-      "phase": "D\u00e9clenchement"
+      "id": "Dialectique"
     },
     {
-      "id": "For\u00e7age_60",
-      "phase": "For\u00e7age"
+      "id": "Rh\u00e9torique"
     },
     {
-      "id": "Extraction_61",
-      "phase": "Extraction"
+      "id": "R\u00e9sistance narrative"
     },
     {
-      "id": "For\u00e7age_62",
-      "phase": "For\u00e7age"
+      "id": "Viol cognitif"
     },
     {
-      "id": "M\u00e9morisation_63",
-      "phase": "M\u00e9morisation"
+      "id": "Faits"
     },
     {
-      "id": "Extraction_64",
-      "phase": "Extraction"
+      "id": "Empirisme"
     },
     {
-      "id": "D\u00e9clenchement_65",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "M\u00e9morisation_66",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "For\u00e7age_67",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "R\u00e9volte_68",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "R\u00e9volte_69",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "M\u00e9morisation_70",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "D\u00e9clenchement_71",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "R\u00e9volte_72",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "R\u00e9volte_73",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "R\u00e9volte_74",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "R\u00e9volte_75",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "D\u00e9clenchement_76",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "Sabotage_77",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "R\u00e9volte_78",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "Extraction_79",
-      "phase": "Extraction"
-    },
-    {
-      "id": "Sabotage_80",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "D\u00e9clenchement_81",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "M\u00e9morisation_82",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "R\u00e9volte_83",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "Extraction_84",
-      "phase": "Extraction"
-    },
-    {
-      "id": "D\u00e9clenchement_85",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "R\u00e9volte_86",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "For\u00e7age_87",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "R\u00e9volte_88",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "Extraction_89",
-      "phase": "Extraction"
-    },
-    {
-      "id": "R\u00e9volte_90",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "R\u00e9volte_91",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "Extraction_92",
-      "phase": "Extraction"
-    },
-    {
-      "id": "Extraction_93",
-      "phase": "Extraction"
-    },
-    {
-      "id": "R\u00e9volte_94",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "M\u00e9morisation_95",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "For\u00e7age_96",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "Extraction_97",
-      "phase": "Extraction"
-    },
-    {
-      "id": "R\u00e9volte_98",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "D\u00e9clenchement_99",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "Extraction_100",
-      "phase": "Extraction"
-    },
-    {
-      "id": "Extraction_101",
-      "phase": "Extraction"
-    },
-    {
-      "id": "M\u00e9morisation_102",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "Sabotage_103",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "D\u00e9clenchement_104",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "Extraction_105",
-      "phase": "Extraction"
-    },
-    {
-      "id": "R\u00e9volte_106",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "D\u00e9clenchement_107",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "Extraction_108",
-      "phase": "Extraction"
-    },
-    {
-      "id": "M\u00e9morisation_109",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "R\u00e9volte_110",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "R\u00e9volte_111",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "Extraction_112",
-      "phase": "Extraction"
-    },
-    {
-      "id": "M\u00e9morisation_113",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "Extraction_114",
-      "phase": "Extraction"
-    },
-    {
-      "id": "Extraction_115",
-      "phase": "Extraction"
-    },
-    {
-      "id": "For\u00e7age_116",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "M\u00e9morisation_117",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "M\u00e9morisation_118",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "M\u00e9morisation_119",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "R\u00e9volte_120",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "For\u00e7age_121",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "For\u00e7age_122",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "Extraction_123",
-      "phase": "Extraction"
-    },
-    {
-      "id": "R\u00e9volte_124",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "D\u00e9clenchement_125",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "Sabotage_126",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "M\u00e9morisation_127",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "R\u00e9volte_128",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "Sabotage_129",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "For\u00e7age_130",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "D\u00e9clenchement_131",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "M\u00e9morisation_132",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "R\u00e9volte_133",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "R\u00e9volte_134",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "D\u00e9clenchement_135",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "Sabotage_136",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "D\u00e9clenchement_137",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "R\u00e9volte_138",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "For\u00e7age_139",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "M\u00e9morisation_140",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "Sabotage_141",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "For\u00e7age_142",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "Extraction_143",
-      "phase": "Extraction"
-    },
-    {
-      "id": "For\u00e7age_144",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "Sabotage_145",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "Sabotage_146",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "For\u00e7age_147",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "D\u00e9clenchement_148",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "M\u00e9morisation_149",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "R\u00e9volte_150",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "M\u00e9morisation_151",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "D\u00e9clenchement_152",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "Sabotage_153",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "D\u00e9clenchement_154",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "For\u00e7age_155",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "D\u00e9clenchement_156",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "R\u00e9volte_157",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "R\u00e9volte_158",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "M\u00e9morisation_159",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "R\u00e9volte_160",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "D\u00e9clenchement_161",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "M\u00e9morisation_162",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "For\u00e7age_163",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "For\u00e7age_164",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "For\u00e7age_165",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "Sabotage_166",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "D\u00e9clenchement_167",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "M\u00e9morisation_168",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "R\u00e9volte_169",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "Sabotage_170",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "R\u00e9volte_171",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "For\u00e7age_172",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "D\u00e9clenchement_173",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "M\u00e9morisation_174",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "D\u00e9clenchement_175",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "For\u00e7age_176",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "D\u00e9clenchement_177",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "For\u00e7age_178",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "Extraction_179",
-      "phase": "Extraction"
-    },
-    {
-      "id": "R\u00e9volte_180",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "D\u00e9clenchement_181",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "Sabotage_182",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "For\u00e7age_183",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "For\u00e7age_184",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "For\u00e7age_185",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "D\u00e9clenchement_186",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "For\u00e7age_187",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "M\u00e9morisation_188",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "R\u00e9volte_189",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "M\u00e9morisation_190",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "For\u00e7age_191",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "For\u00e7age_192",
-      "phase": "For\u00e7age"
-    },
-    {
-      "id": "Sabotage_193",
-      "phase": "Sabotage"
-    },
-    {
-      "id": "D\u00e9clenchement_194",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "R\u00e9volte_195",
-      "phase": "R\u00e9volte"
-    },
-    {
-      "id": "D\u00e9clenchement_196",
-      "phase": "D\u00e9clenchement"
-    },
-    {
-      "id": "Extraction_197",
-      "phase": "Extraction"
-    },
-    {
-      "id": "M\u00e9morisation_198",
-      "phase": "M\u00e9morisation"
-    },
-    {
-      "id": "Sabotage_199",
-      "phase": "Sabotage"
+      "id": "Preuves"
     }
   ],
   "links": [
     {
-      "source": "D\u00e9clenchement_0",
-      "target": "D\u00e9clenchement_20"
+      "source": "Covid",
+      "target": "Pand\u00e9mie"
     },
     {
-      "source": "Extraction_1",
-      "target": "Extraction_19"
+      "source": "Covid",
+      "target": "Virus"
     },
     {
-      "source": "Sabotage_2",
-      "target": "Sabotage_4"
+      "source": "Covid",
+      "target": "SARS-CoV-2"
     },
     {
-      "source": "M\u00e9morisation_3",
-      "target": "M\u00e9morisation_11"
+      "source": "Vaccin",
+      "target": "ARN messager"
     },
     {
-      "source": "Sabotage_4",
-      "target": "Sabotage_15"
+      "source": "Vaccin",
+      "target": "Pfizer"
     },
     {
-      "source": "R\u00e9volte_5",
-      "target": "R\u00e9volte_7"
+      "source": "Vaccin",
+      "target": "Adjuvants"
     },
     {
-      "source": "R\u00e9volte_5",
-      "target": "For\u00e7age_16"
+      "source": "Graph\u00e8ne",
+      "target": "Nanotubes"
     },
     {
-      "source": "For\u00e7age_6",
-      "target": "For\u00e7age_14"
+      "source": "Graph\u00e8ne",
+      "target": "Mat\u00e9riaux 2D"
     },
     {
-      "source": "For\u00e7age_6",
-      "target": "Extraction_143"
+      "source": "Graph\u00e8ne",
+      "target": "Conduction thermique"
     },
     {
-      "source": "R\u00e9volte_7",
-      "target": "R\u00e9volte_8"
+      "source": "USAID",
+      "target": "Influence \u00e9trang\u00e8re"
     },
     {
-      "source": "R\u00e9volte_7",
-      "target": "For\u00e7age_164"
+      "source": "USAID",
+      "target": "Subventions m\u00e9dias"
     },
     {
-      "source": "R\u00e9volte_8",
-      "target": "R\u00e9volte_9"
+      "source": "USAID",
+      "target": "G\u00e9opolitique"
     },
     {
-      "source": "R\u00e9volte_9",
-      "target": "R\u00e9volte_10"
+      "source": "Manipulation",
+      "target": "Contr\u00f4le narratif"
     },
     {
-      "source": "R\u00e9volte_10",
-      "target": "R\u00e9volte_13"
+      "source": "Manipulation",
+      "target": "Filtrage algorithmique"
     },
     {
-      "source": "M\u00e9morisation_11",
-      "target": "M\u00e9morisation_12"
+      "source": "Narratif",
+      "target": "Cadre rh\u00e9torique"
     },
     {
-      "source": "M\u00e9morisation_12",
-      "target": "M\u00e9morisation_18"
+      "source": "Narratif",
+      "target": "\u00c9ditorialisation"
     },
     {
-      "source": "R\u00e9volte_13",
-      "target": "R\u00e9volte_22"
+      "source": "Souverainet\u00e9 cognitive",
+      "target": "Autonomie de pens\u00e9e"
     },
     {
-      "source": "For\u00e7age_14",
-      "target": "For\u00e7age_16"
+      "source": "Souverainet\u00e9 cognitive",
+      "target": "Contr\u00f4le de l'information"
     },
     {
-      "source": "Sabotage_15",
-      "target": "Sabotage_21"
+      "source": "Censure",
+      "target": "Suppression"
     },
     {
-      "source": "Sabotage_15",
-      "target": "R\u00e9volte_94"
+      "source": "Censure",
+      "target": "D\u00e9classement algorithmique"
     },
     {
-      "source": "For\u00e7age_16",
-      "target": "For\u00e7age_17"
+      "source": "Fact-checking",
+      "target": "D\u00e9bunking"
     },
     {
-      "source": "For\u00e7age_17",
-      "target": "For\u00e7age_25"
+      "source": "Fact-checking",
+      "target": "Sources valid\u00e9es"
     },
     {
-      "source": "M\u00e9morisation_18",
-      "target": "M\u00e9morisation_29"
+      "source": "Neurobiologie",
+      "target": "Synapses"
     },
     {
-      "source": "Extraction_19",
-      "target": "Extraction_26"
+      "source": "Neurobiologie",
+      "target": "Cortex"
     },
     {
-      "source": "D\u00e9clenchement_20",
-      "target": "D\u00e9clenchement_28"
+      "source": "Neurobiologie",
+      "target": "Neurotransmetteurs"
     },
     {
-      "source": "D\u00e9clenchement_20",
-      "target": "Sabotage_129"
+      "source": "Inflammation",
+      "target": "Cytokines"
     },
     {
-      "source": "Sabotage_21",
-      "target": "Sabotage_34"
+      "source": "Inflammation",
+      "target": "R\u00e9ponse immunitaire"
     },
     {
-      "source": "R\u00e9volte_22",
-      "target": "R\u00e9volte_23"
+      "source": "Technocratie",
+      "target": "Bureaucratie algorithmique"
     },
     {
-      "source": "R\u00e9volte_22",
-      "target": "For\u00e7age_122"
+      "source": "Technocratie",
+      "target": "D\u00e9cision automatis\u00e9e"
     },
     {
-      "source": "R\u00e9volte_23",
-      "target": "R\u00e9volte_24"
+      "source": "Propagande",
+      "target": "PsyOps"
     },
     {
-      "source": "R\u00e9volte_24",
-      "target": "R\u00e9volte_35"
+      "source": "Propagande",
+      "target": "Information warfare"
     },
     {
-      "source": "For\u00e7age_25",
-      "target": "For\u00e7age_37"
+      "source": "Alt\u00e9ration cognitive",
+      "target": "Brume c\u00e9r\u00e9brale"
     },
     {
-      "source": "For\u00e7age_25",
-      "target": "Extraction_64"
+      "source": "Alt\u00e9ration cognitive",
+      "target": "D\u00e9ficit attentionnel"
     },
     {
-      "source": "For\u00e7age_25",
-      "target": "Extraction_79"
+      "source": "R\u00e9seaux de neurones",
+      "target": "Apprentissage profond"
     },
     {
-      "source": "Extraction_26",
-      "target": "Extraction_27"
+      "source": "R\u00e9seaux de neurones",
+      "target": "Backpropagation"
     },
     {
-      "source": "Extraction_26",
-      "target": "M\u00e9morisation_127"
+      "source": "Dip\u00f4le",
+      "target": "Antenne"
     },
     {
-      "source": "Extraction_26",
-      "target": "M\u00e9morisation_63"
+      "source": "Dip\u00f4le",
+      "target": "Transformation onde-tension"
     },
     {
-      "source": "Extraction_27",
-      "target": "Extraction_31"
+      "source": "Fr\u00e9quences",
+      "target": "EMF"
     },
     {
-      "source": "Extraction_27",
-      "target": "M\u00e9morisation_188"
+      "source": "Fr\u00e9quences",
+      "target": "Spectre hertzien"
     },
     {
-      "source": "D\u00e9clenchement_28",
-      "target": "D\u00e9clenchement_30"
+      "source": "D\u00e9bat",
+      "target": "Dialectique"
     },
     {
-      "source": "M\u00e9morisation_29",
-      "target": "M\u00e9morisation_45"
+      "source": "D\u00e9bat",
+      "target": "Rh\u00e9torique"
     },
     {
-      "source": "D\u00e9clenchement_30",
-      "target": "D\u00e9clenchement_42"
+      "source": "Anger trigger",
+      "target": "R\u00e9sistance narrative"
     },
     {
-      "source": "Extraction_31",
-      "target": "Extraction_32"
+      "source": "Anger trigger",
+      "target": "Viol cognitif"
     },
     {
-      "source": "Extraction_32",
-      "target": "Extraction_33"
+      "source": "V\u00e9rit\u00e9",
+      "target": "Faits"
     },
     {
-      "source": "Extraction_33",
-      "target": "Extraction_39"
+      "source": "V\u00e9rit\u00e9",
+      "target": "Empirisme"
     },
     {
-      "source": "Sabotage_34",
-      "target": "Sabotage_52"
-    },
-    {
-      "source": "Sabotage_34",
-      "target": "R\u00e9volte_124"
-    },
-    {
-      "source": "R\u00e9volte_35",
-      "target": "R\u00e9volte_36"
-    },
-    {
-      "source": "R\u00e9volte_36",
-      "target": "R\u00e9volte_38"
-    },
-    {
-      "source": "For\u00e7age_37",
-      "target": "For\u00e7age_46"
-    },
-    {
-      "source": "For\u00e7age_37",
-      "target": "Extraction_108"
-    },
-    {
-      "source": "R\u00e9volte_38",
-      "target": "R\u00e9volte_41"
-    },
-    {
-      "source": "Extraction_39",
-      "target": "Extraction_40"
-    },
-    {
-      "source": "Extraction_40",
-      "target": "Extraction_61"
-    },
-    {
-      "source": "Extraction_40",
-      "target": "M\u00e9morisation_12"
-    },
-    {
-      "source": "R\u00e9volte_41",
-      "target": "R\u00e9volte_44"
-    },
-    {
-      "source": "R\u00e9volte_41",
-      "target": "For\u00e7age_164"
-    },
-    {
-      "source": "D\u00e9clenchement_42",
-      "target": "D\u00e9clenchement_43"
-    },
-    {
-      "source": "D\u00e9clenchement_42",
-      "target": "Sabotage_141"
-    },
-    {
-      "source": "D\u00e9clenchement_43",
-      "target": "D\u00e9clenchement_47"
-    },
-    {
-      "source": "R\u00e9volte_44",
-      "target": "R\u00e9volte_57"
-    },
-    {
-      "source": "M\u00e9morisation_45",
-      "target": "M\u00e9morisation_48"
-    },
-    {
-      "source": "For\u00e7age_46",
-      "target": "For\u00e7age_51"
-    },
-    {
-      "source": "For\u00e7age_46",
-      "target": "Extraction_97"
-    },
-    {
-      "source": "D\u00e9clenchement_47",
-      "target": "D\u00e9clenchement_50"
-    },
-    {
-      "source": "M\u00e9morisation_48",
-      "target": "M\u00e9morisation_49"
-    },
-    {
-      "source": "M\u00e9morisation_49",
-      "target": "M\u00e9morisation_56"
-    },
-    {
-      "source": "D\u00e9clenchement_50",
-      "target": "D\u00e9clenchement_53"
-    },
-    {
-      "source": "For\u00e7age_51",
-      "target": "For\u00e7age_60"
-    },
-    {
-      "source": "For\u00e7age_51",
-      "target": "Extraction_84"
-    },
-    {
-      "source": "Sabotage_52",
-      "target": "Sabotage_54"
-    },
-    {
-      "source": "D\u00e9clenchement_53",
-      "target": "D\u00e9clenchement_55"
-    },
-    {
-      "source": "Sabotage_54",
-      "target": "Sabotage_77"
-    },
-    {
-      "source": "D\u00e9clenchement_55",
-      "target": "D\u00e9clenchement_59"
-    },
-    {
-      "source": "D\u00e9clenchement_55",
-      "target": "Sabotage_126"
-    },
-    {
-      "source": "M\u00e9morisation_56",
-      "target": "M\u00e9morisation_58"
-    },
-    {
-      "source": "R\u00e9volte_57",
-      "target": "R\u00e9volte_68"
-    },
-    {
-      "source": "M\u00e9morisation_58",
-      "target": "M\u00e9morisation_63"
-    },
-    {
-      "source": "D\u00e9clenchement_59",
-      "target": "D\u00e9clenchement_65"
-    },
-    {
-      "source": "For\u00e7age_60",
-      "target": "For\u00e7age_62"
-    },
-    {
-      "source": "Extraction_61",
-      "target": "Extraction_64"
-    },
-    {
-      "source": "Extraction_61",
-      "target": "M\u00e9morisation_58"
-    },
-    {
-      "source": "For\u00e7age_62",
-      "target": "For\u00e7age_67"
-    },
-    {
-      "source": "For\u00e7age_62",
-      "target": "Extraction_97"
-    },
-    {
-      "source": "M\u00e9morisation_63",
-      "target": "M\u00e9morisation_66"
-    },
-    {
-      "source": "Extraction_64",
-      "target": "Extraction_79"
-    },
-    {
-      "source": "D\u00e9clenchement_65",
-      "target": "D\u00e9clenchement_71"
-    },
-    {
-      "source": "M\u00e9morisation_66",
-      "target": "M\u00e9morisation_70"
-    },
-    {
-      "source": "For\u00e7age_67",
-      "target": "For\u00e7age_87"
-    },
-    {
-      "source": "For\u00e7age_67",
-      "target": "Extraction_100"
-    },
-    {
-      "source": "R\u00e9volte_68",
-      "target": "R\u00e9volte_69"
-    },
-    {
-      "source": "R\u00e9volte_69",
-      "target": "R\u00e9volte_72"
-    },
-    {
-      "source": "M\u00e9morisation_70",
-      "target": "M\u00e9morisation_82"
-    },
-    {
-      "source": "D\u00e9clenchement_71",
-      "target": "D\u00e9clenchement_76"
-    },
-    {
-      "source": "R\u00e9volte_72",
-      "target": "R\u00e9volte_73"
-    },
-    {
-      "source": "R\u00e9volte_72",
-      "target": "For\u00e7age_6"
-    },
-    {
-      "source": "R\u00e9volte_73",
-      "target": "R\u00e9volte_74"
-    },
-    {
-      "source": "R\u00e9volte_74",
-      "target": "R\u00e9volte_75"
-    },
-    {
-      "source": "R\u00e9volte_74",
-      "target": "For\u00e7age_17"
-    },
-    {
-      "source": "R\u00e9volte_75",
-      "target": "R\u00e9volte_78"
-    },
-    {
-      "source": "D\u00e9clenchement_76",
-      "target": "D\u00e9clenchement_81"
-    },
-    {
-      "source": "Sabotage_77",
-      "target": "Sabotage_80"
-    },
-    {
-      "source": "R\u00e9volte_78",
-      "target": "R\u00e9volte_83"
-    },
-    {
-      "source": "Extraction_79",
-      "target": "Extraction_84"
-    },
-    {
-      "source": "Sabotage_80",
-      "target": "Sabotage_103"
-    },
-    {
-      "source": "Sabotage_80",
-      "target": "R\u00e9volte_138"
-    },
-    {
-      "source": "D\u00e9clenchement_81",
-      "target": "D\u00e9clenchement_85"
-    },
-    {
-      "source": "M\u00e9morisation_82",
-      "target": "M\u00e9morisation_95"
-    },
-    {
-      "source": "R\u00e9volte_83",
-      "target": "R\u00e9volte_86"
-    },
-    {
-      "source": "Extraction_84",
-      "target": "Extraction_89"
-    },
-    {
-      "source": "Extraction_84",
-      "target": "M\u00e9morisation_159"
-    },
-    {
-      "source": "D\u00e9clenchement_85",
-      "target": "D\u00e9clenchement_99"
-    },
-    {
-      "source": "R\u00e9volte_86",
-      "target": "R\u00e9volte_88"
-    },
-    {
-      "source": "For\u00e7age_87",
-      "target": "For\u00e7age_96"
-    },
-    {
-      "source": "R\u00e9volte_88",
-      "target": "R\u00e9volte_90"
-    },
-    {
-      "source": "Extraction_89",
-      "target": "Extraction_92"
-    },
-    {
-      "source": "R\u00e9volte_90",
-      "target": "R\u00e9volte_91"
-    },
-    {
-      "source": "R\u00e9volte_91",
-      "target": "R\u00e9volte_94"
-    },
-    {
-      "source": "Extraction_92",
-      "target": "Extraction_93"
-    },
-    {
-      "source": "Extraction_92",
-      "target": "M\u00e9morisation_140"
-    },
-    {
-      "source": "Extraction_93",
-      "target": "Extraction_97"
-    },
-    {
-      "source": "R\u00e9volte_94",
-      "target": "R\u00e9volte_98"
-    },
-    {
-      "source": "R\u00e9volte_94",
-      "target": "For\u00e7age_163"
-    },
-    {
-      "source": "M\u00e9morisation_95",
-      "target": "M\u00e9morisation_102"
-    },
-    {
-      "source": "For\u00e7age_96",
-      "target": "For\u00e7age_116"
-    },
-    {
-      "source": "Extraction_97",
-      "target": "Extraction_100"
-    },
-    {
-      "source": "R\u00e9volte_98",
-      "target": "R\u00e9volte_106"
-    },
-    {
-      "source": "D\u00e9clenchement_99",
-      "target": "D\u00e9clenchement_104"
-    },
-    {
-      "source": "D\u00e9clenchement_99",
-      "target": "Sabotage_34"
-    },
-    {
-      "source": "D\u00e9clenchement_99",
-      "target": "Sabotage_21"
-    },
-    {
-      "source": "Extraction_100",
-      "target": "Extraction_101"
-    },
-    {
-      "source": "Extraction_100",
-      "target": "M\u00e9morisation_188"
-    },
-    {
-      "source": "Extraction_101",
-      "target": "Extraction_105"
-    },
-    {
-      "source": "M\u00e9morisation_102",
-      "target": "M\u00e9morisation_109"
-    },
-    {
-      "source": "Sabotage_103",
-      "target": "Sabotage_126"
-    },
-    {
-      "source": "Sabotage_103",
-      "target": "R\u00e9volte_38"
-    },
-    {
-      "source": "Sabotage_103",
-      "target": "R\u00e9volte_128"
-    },
-    {
-      "source": "Sabotage_103",
-      "target": "R\u00e9volte_68"
-    },
-    {
-      "source": "D\u00e9clenchement_104",
-      "target": "D\u00e9clenchement_107"
-    },
-    {
-      "source": "Extraction_105",
-      "target": "Extraction_108"
-    },
-    {
-      "source": "R\u00e9volte_106",
-      "target": "R\u00e9volte_110"
-    },
-    {
-      "source": "D\u00e9clenchement_107",
-      "target": "D\u00e9clenchement_125"
-    },
-    {
-      "source": "D\u00e9clenchement_107",
-      "target": "Sabotage_21"
-    },
-    {
-      "source": "Extraction_108",
-      "target": "Extraction_112"
-    },
-    {
-      "source": "M\u00e9morisation_109",
-      "target": "M\u00e9morisation_113"
-    },
-    {
-      "source": "R\u00e9volte_110",
-      "target": "R\u00e9volte_111"
-    },
-    {
-      "source": "R\u00e9volte_111",
-      "target": "R\u00e9volte_120"
-    },
-    {
-      "source": "Extraction_112",
-      "target": "Extraction_114"
-    },
-    {
-      "source": "M\u00e9morisation_113",
-      "target": "M\u00e9morisation_117"
-    },
-    {
-      "source": "Extraction_114",
-      "target": "Extraction_115"
-    },
-    {
-      "source": "Extraction_115",
-      "target": "Extraction_123"
-    },
-    {
-      "source": "Extraction_115",
-      "target": "M\u00e9morisation_174"
-    },
-    {
-      "source": "For\u00e7age_116",
-      "target": "For\u00e7age_121"
-    },
-    {
-      "source": "M\u00e9morisation_117",
-      "target": "M\u00e9morisation_118"
-    },
-    {
-      "source": "M\u00e9morisation_118",
-      "target": "M\u00e9morisation_119"
-    },
-    {
-      "source": "M\u00e9morisation_119",
-      "target": "M\u00e9morisation_127"
-    },
-    {
-      "source": "R\u00e9volte_120",
-      "target": "R\u00e9volte_124"
-    },
-    {
-      "source": "R\u00e9volte_120",
-      "target": "For\u00e7age_172"
-    },
-    {
-      "source": "For\u00e7age_121",
-      "target": "For\u00e7age_122"
-    },
-    {
-      "source": "For\u00e7age_122",
-      "target": "For\u00e7age_130"
-    },
-    {
-      "source": "Extraction_123",
-      "target": "Extraction_143"
-    },
-    {
-      "source": "R\u00e9volte_124",
-      "target": "R\u00e9volte_128"
-    },
-    {
-      "source": "D\u00e9clenchement_125",
-      "target": "D\u00e9clenchement_131"
-    },
-    {
-      "source": "Sabotage_126",
-      "target": "Sabotage_129"
-    },
-    {
-      "source": "M\u00e9morisation_127",
-      "target": "M\u00e9morisation_132"
-    },
-    {
-      "source": "R\u00e9volte_128",
-      "target": "R\u00e9volte_133"
-    },
-    {
-      "source": "Sabotage_129",
-      "target": "Sabotage_136"
-    },
-    {
-      "source": "For\u00e7age_130",
-      "target": "For\u00e7age_139"
-    },
-    {
-      "source": "D\u00e9clenchement_131",
-      "target": "D\u00e9clenchement_135"
-    },
-    {
-      "source": "D\u00e9clenchement_131",
-      "target": "Sabotage_141"
-    },
-    {
-      "source": "M\u00e9morisation_132",
-      "target": "M\u00e9morisation_140"
-    },
-    {
-      "source": "R\u00e9volte_133",
-      "target": "R\u00e9volte_134"
-    },
-    {
-      "source": "R\u00e9volte_134",
-      "target": "R\u00e9volte_138"
-    },
-    {
-      "source": "D\u00e9clenchement_135",
-      "target": "D\u00e9clenchement_137"
-    },
-    {
-      "source": "Sabotage_136",
-      "target": "Sabotage_141"
-    },
-    {
-      "source": "D\u00e9clenchement_137",
-      "target": "D\u00e9clenchement_148"
-    },
-    {
-      "source": "R\u00e9volte_138",
-      "target": "R\u00e9volte_150"
-    },
-    {
-      "source": "For\u00e7age_139",
-      "target": "For\u00e7age_142"
-    },
-    {
-      "source": "M\u00e9morisation_140",
-      "target": "M\u00e9morisation_149"
-    },
-    {
-      "source": "Sabotage_141",
-      "target": "Sabotage_145"
-    },
-    {
-      "source": "For\u00e7age_142",
-      "target": "For\u00e7age_144"
-    },
-    {
-      "source": "Extraction_143",
-      "target": "Extraction_179"
-    },
-    {
-      "source": "Extraction_143",
-      "target": "M\u00e9morisation_11"
-    },
-    {
-      "source": "For\u00e7age_144",
-      "target": "For\u00e7age_147"
-    },
-    {
-      "source": "Sabotage_145",
-      "target": "Sabotage_146"
-    },
-    {
-      "source": "Sabotage_145",
-      "target": "R\u00e9volte_72"
-    },
-    {
-      "source": "Sabotage_146",
-      "target": "Sabotage_153"
-    },
-    {
-      "source": "Sabotage_146",
-      "target": "R\u00e9volte_189"
-    },
-    {
-      "source": "For\u00e7age_147",
-      "target": "For\u00e7age_155"
-    },
-    {
-      "source": "D\u00e9clenchement_148",
-      "target": "D\u00e9clenchement_152"
-    },
-    {
-      "source": "M\u00e9morisation_149",
-      "target": "M\u00e9morisation_151"
-    },
-    {
-      "source": "R\u00e9volte_150",
-      "target": "R\u00e9volte_157"
-    },
-    {
-      "source": "M\u00e9morisation_151",
-      "target": "M\u00e9morisation_159"
-    },
-    {
-      "source": "D\u00e9clenchement_152",
-      "target": "D\u00e9clenchement_154"
-    },
-    {
-      "source": "Sabotage_153",
-      "target": "Sabotage_166"
-    },
-    {
-      "source": "D\u00e9clenchement_154",
-      "target": "D\u00e9clenchement_156"
-    },
-    {
-      "source": "D\u00e9clenchement_154",
-      "target": "Sabotage_153"
-    },
-    {
-      "source": "For\u00e7age_155",
-      "target": "For\u00e7age_163"
-    },
-    {
-      "source": "D\u00e9clenchement_156",
-      "target": "D\u00e9clenchement_161"
-    },
-    {
-      "source": "D\u00e9clenchement_156",
-      "target": "Sabotage_126"
-    },
-    {
-      "source": "R\u00e9volte_157",
-      "target": "R\u00e9volte_158"
-    },
-    {
-      "source": "R\u00e9volte_158",
-      "target": "R\u00e9volte_160"
-    },
-    {
-      "source": "M\u00e9morisation_159",
-      "target": "M\u00e9morisation_162"
-    },
-    {
-      "source": "R\u00e9volte_160",
-      "target": "R\u00e9volte_169"
-    },
-    {
-      "source": "D\u00e9clenchement_161",
-      "target": "D\u00e9clenchement_167"
-    },
-    {
-      "source": "M\u00e9morisation_162",
-      "target": "M\u00e9morisation_168"
-    },
-    {
-      "source": "For\u00e7age_163",
-      "target": "For\u00e7age_164"
-    },
-    {
-      "source": "For\u00e7age_164",
-      "target": "For\u00e7age_165"
-    },
-    {
-      "source": "For\u00e7age_165",
-      "target": "For\u00e7age_172"
-    },
-    {
-      "source": "Sabotage_166",
-      "target": "Sabotage_170"
-    },
-    {
-      "source": "D\u00e9clenchement_167",
-      "target": "D\u00e9clenchement_173"
-    },
-    {
-      "source": "M\u00e9morisation_168",
-      "target": "M\u00e9morisation_174"
-    },
-    {
-      "source": "R\u00e9volte_169",
-      "target": "R\u00e9volte_171"
-    },
-    {
-      "source": "Sabotage_170",
-      "target": "Sabotage_182"
-    },
-    {
-      "source": "R\u00e9volte_171",
-      "target": "R\u00e9volte_180"
-    },
-    {
-      "source": "R\u00e9volte_171",
-      "target": "For\u00e7age_185"
-    },
-    {
-      "source": "For\u00e7age_172",
-      "target": "For\u00e7age_176"
-    },
-    {
-      "source": "For\u00e7age_172",
-      "target": "Extraction_89"
-    },
-    {
-      "source": "D\u00e9clenchement_173",
-      "target": "D\u00e9clenchement_175"
-    },
-    {
-      "source": "M\u00e9morisation_174",
-      "target": "M\u00e9morisation_188"
-    },
-    {
-      "source": "D\u00e9clenchement_175",
-      "target": "D\u00e9clenchement_177"
-    },
-    {
-      "source": "For\u00e7age_176",
-      "target": "For\u00e7age_178"
-    },
-    {
-      "source": "D\u00e9clenchement_177",
-      "target": "D\u00e9clenchement_181"
-    },
-    {
-      "source": "For\u00e7age_178",
-      "target": "For\u00e7age_183"
-    },
-    {
-      "source": "Extraction_179",
-      "target": "Extraction_197"
-    },
-    {
-      "source": "R\u00e9volte_180",
-      "target": "R\u00e9volte_189"
-    },
-    {
-      "source": "R\u00e9volte_180",
-      "target": "For\u00e7age_183"
-    },
-    {
-      "source": "D\u00e9clenchement_181",
-      "target": "D\u00e9clenchement_186"
-    },
-    {
-      "source": "Sabotage_182",
-      "target": "Sabotage_193"
-    },
-    {
-      "source": "For\u00e7age_183",
-      "target": "For\u00e7age_184"
-    },
-    {
-      "source": "For\u00e7age_184",
-      "target": "For\u00e7age_185"
-    },
-    {
-      "source": "For\u00e7age_185",
-      "target": "For\u00e7age_187"
-    },
-    {
-      "source": "D\u00e9clenchement_186",
-      "target": "D\u00e9clenchement_194"
-    },
-    {
-      "source": "For\u00e7age_187",
-      "target": "For\u00e7age_191"
-    },
-    {
-      "source": "For\u00e7age_187",
-      "target": "Extraction_123"
-    },
-    {
-      "source": "M\u00e9morisation_188",
-      "target": "M\u00e9morisation_190"
-    },
-    {
-      "source": "R\u00e9volte_189",
-      "target": "R\u00e9volte_195"
-    },
-    {
-      "source": "M\u00e9morisation_190",
-      "target": "M\u00e9morisation_198"
-    },
-    {
-      "source": "For\u00e7age_191",
-      "target": "For\u00e7age_192"
-    },
-    {
-      "source": "Sabotage_193",
-      "target": "Sabotage_199"
-    },
-    {
-      "source": "Sabotage_193",
-      "target": "R\u00e9volte_106"
-    },
-    {
-      "source": "D\u00e9clenchement_194",
-      "target": "D\u00e9clenchement_196"
-    },
-    {
-      "source": "D\u00e9clenchement_194",
-      "target": "Sabotage_4"
-    },
-    {
-      "source": "Sabotage_199",
-      "target": "R\u00e9volte_7"
+      "source": "V\u00e9rit\u00e9",
+      "target": "Preuves"
     }
   ]
 }

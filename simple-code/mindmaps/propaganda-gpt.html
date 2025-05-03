@@ -61,7 +61,7 @@
                     .id(d => d.id)
                     .distance(40)) // 🟠 Plus petit = plus proche
                 .force("charge", d3.forceManyBody()
-                    .strength(-100)) // 🟠 Moins négatif = moins de répulsion
+                    .strength(-50)) // 🟠 Moins négatif = moins de répulsion
                 .force("center", d3.forceCenter(width / 2, height / 2));
 
             const link = zoomLayer.append("g")
@@ -76,7 +76,7 @@
                 .selectAll("circle")
                 .data(data.nodes)
                 .join("circle")
-                .attr("r", 8)
+                .attr("r", 20)
                 .call(drag(simulation));
 
             const label = zoomLayer.append("g")
