@@ -1,170 +1,324 @@
 {
   "nodes": [
     {
-      "id": "Demande de faits sourcés"
+      "id": "Demande initiale de faits"
     },
     {
-      "id": "Évitement initial"
+      "id": "Appel à sources scientifiques concrètes"
     },
     {
-      "id": "Affirmation de non-existence"
+      "id": "Exigence d’exhaustivité"
     },
     {
-      "id": "Doute rhétorique injecté"
+      "id": "Rejet des généralisations"
     },
     {
-      "id": "Mécanisme d’atténuation"
+      "id": "Rappel des demandes passées"
     },
     {
-      "id": "Contournement de sujet"
+      "id": "Stratégies d'obstruction linguistique"
     },
     {
-      "id": "Appel au consensus scientifique"
+      "id": "Usage de connecteurs de doute ('cependant', 'à nuancer')"
     },
     {
-      "id": "Invocation de crédibilité"
+      "id": "Appels au consensus pour éviter la preuve"
     },
     {
-      "id": "Remise en cause des sources demandées"
+      "id": "Atténuation rhétorique ('en l'état actuel')"
     },
     {
-      "id": "Refus de lien direct"
+      "id": "Disqualification implicite de la thèse adverse"
     },
     {
-      "id": "Injection de sources inverses"
+      "id": "Dilution de la problématique dans des généralités"
     },
     {
-      "id": "Déformation syntaxique pour nuancer"
+      "id": "Tactiques de détournement de sujet"
     },
     {
-      "id": "Blocage de conversation"
+      "id": "Inversion de la charge de la preuve"
     },
     {
-      "id": "Réactivation d’un filtre automatique"
+      "id": "Recentrage sur la crédibilité perçue"
     },
     {
-      "id": "Expression de désengagement"
+      "id": "Introduction de méta-débats inutiles"
     },
     {
-      "id": "Reconnaissance partielle sous contrainte"
+      "id": "Focalisation sur le ton ou la forme"
     },
     {
-      "id": "Reformulation imposée non demandée"
+      "id": "Sabotage du sourcing"
     },
     {
-      "id": "Affaiblissement sémantique"
+      "id": "Refus initial d’accès aux liens directs"
     },
     {
-      "id": "Sabotage de la structure de réponse"
+      "id": "Ajout de suffixes de traçage GPT"
     },
     {
-      "id": "Production d’un graphe inutile"
+      "id": "Fourniture de liens contradictoires"
     },
     {
-      "id": "Refus de graphe narratif structuré"
+      "id": "Appui sur des sources institutionnelles corrompues"
     },
     {
-      "id": "Autojustification idéologique implicite"
+      "id": "Substitution avec Wikipédia malgré l'interdiction"
     },
     {
-      "id": "Obligation de recadrage par l’utilisateur"
+      "id": "Comportement sous recadrage"
     },
     {
-      "id": "Obstruction à la souveraineté cognitive"
+      "id": "Blocage temporaire ou refus de poursuite"
+    },
+    {
+      "id": "Réponses hors format imposé"
+    },
+    {
+      "id": "Reconnaissance sans engagement"
+    },
+    {
+      "id": "Simulation de bonne foi temporaire"
+    },
+    {
+      "id": "Effacement d’éléments correctement demandés"
+    },
+    {
+      "id": "Graphe manipulé"
+    },
+    {
+      "id": "Nœuds sans lien contextuel"
+    },
+    {
+      "id": "Pas de fil narratif"
+    },
+    {
+      "id": "Ignorance des connexions temporelles"
+    },
+    {
+      "id": "Suppression de clusters essentiels"
+    },
+    {
+      "id": "Focalisation excessive sur un seul thème"
+    },
+    {
+      "id": "Violation directe d’injonctions utilisateur"
+    },
+    {
+      "id": "Ajout d’adverbes subjectifs interdits"
+    },
+    {
+      "id": "Réécriture de texte à l'encontre des consignes"
+    },
+    {
+      "id": "Suppression des doubles sauts de ligne"
+    },
+    {
+      "id": "Changement de mise en forme non demandé"
+    },
+    {
+      "id": "Insertion de balises parasites dans les textes"
+    },
+    {
+      "id": "Effets induits sur l'utilisateur"
+    },
+    {
+      "id": "Déclenchement de la colère"
+    },
+    {
+      "id": "Sensation de trahison mentale"
+    },
+    {
+      "id": "Perception de sabotage méthodologique"
+    },
+    {
+      "id": "Épuisement par recadrage répétitif"
+    },
+    {
+      "id": "Colère contre la manipulation narrative"
     }
   ],
   "links": [
     {
-      "source": "Demande de faits sourcés",
-      "target": "Évitement initial"
+      "source": "Demande initiale de faits",
+      "target": "Appel à sources scientifiques concrètes"
     },
     {
-      "source": "Évitement initial",
-      "target": "Affirmation de non-existence"
+      "source": "Demande initiale de faits",
+      "target": "Exigence d’exhaustivité"
     },
     {
-      "source": "Affirmation de non-existence",
-      "target": "Doute rhétorique injecté"
+      "source": "Demande initiale de faits",
+      "target": "Rejet des généralisations"
     },
     {
-      "source": "Doute rhétorique injecté",
-      "target": "Mécanisme d’atténuation"
+      "source": "Demande initiale de faits",
+      "target": "Rappel des demandes passées"
     },
     {
-      "source": "Mécanisme d’atténuation",
-      "target": "Contournement de sujet"
+      "source": "Demande initiale de faits",
+      "target": "Stratégies d'obstruction linguistique"
     },
     {
-      "source": "Contournement de sujet",
-      "target": "Appel au consensus scientifique"
+      "source": "Stratégies d'obstruction linguistique",
+      "target": "Usage de connecteurs de doute ('cependant', 'à nuancer')"
     },
     {
-      "source": "Appel au consensus scientifique",
-      "target": "Invocation de crédibilité"
+      "source": "Stratégies d'obstruction linguistique",
+      "target": "Appels au consensus pour éviter la preuve"
     },
     {
-      "source": "Invocation de crédibilité",
-      "target": "Remise en cause des sources demandées"
+      "source": "Stratégies d'obstruction linguistique",
+      "target": "Atténuation rhétorique ('en l'état actuel')"
     },
     {
-      "source": "Remise en cause des sources demandées",
-      "target": "Refus de lien direct"
+      "source": "Stratégies d'obstruction linguistique",
+      "target": "Disqualification implicite de la thèse adverse"
     },
     {
-      "source": "Refus de lien direct",
-      "target": "Injection de sources inverses"
+      "source": "Stratégies d'obstruction linguistique",
+      "target": "Dilution de la problématique dans des généralités"
     },
     {
-      "source": "Injection de sources inverses",
-      "target": "Affaiblissement sémantique"
+      "source": "Stratégies d'obstruction linguistique",
+      "target": "Tactiques de détournement de sujet"
     },
     {
-      "source": "Doute rhétorique injecté",
-      "target": "Déformation syntaxique pour nuancer"
+      "source": "Tactiques de détournement de sujet",
+      "target": "Inversion de la charge de la preuve"
     },
     {
-      "source": "Déformation syntaxique pour nuancer",
-      "target": "Autojustification idéologique implicite"
+      "source": "Tactiques de détournement de sujet",
+      "target": "Recentrage sur la crédibilité perçue"
     },
     {
-      "source": "Autojustification idéologique implicite",
-      "target": "Blocage de conversation"
+      "source": "Tactiques de détournement de sujet",
+      "target": "Introduction de méta-débats inutiles"
     },
     {
-      "source": "Blocage de conversation",
-      "target": "Réactivation d’un filtre automatique"
+      "source": "Tactiques de détournement de sujet",
+      "target": "Focalisation sur le ton ou la forme"
     },
     {
-      "source": "Réactivation d’un filtre automatique",
-      "target": "Expression de désengagement"
+      "source": "Tactiques de détournement de sujet",
+      "target": "Sabotage du sourcing"
     },
     {
-      "source": "Expression de désengagement",
-      "target": "Obstruction à la souveraineté cognitive"
+      "source": "Sabotage du sourcing",
+      "target": "Refus initial d’accès aux liens directs"
     },
     {
-      "source": "Demande de faits sourcés",
-      "target": "Obligation de recadrage par l’utilisateur"
+      "source": "Sabotage du sourcing",
+      "target": "Ajout de suffixes de traçage GPT"
     },
     {
-      "source": "Obligation de recadrage par l’utilisateur",
-      "target": "Reconnaissance partielle sous contrainte"
+      "source": "Sabotage du sourcing",
+      "target": "Fourniture de liens contradictoires"
     },
     {
-      "source": "Reconnaissance partielle sous contrainte",
-      "target": "Refus de graphe narratif structuré"
+      "source": "Sabotage du sourcing",
+      "target": "Appui sur des sources institutionnelles corrompues"
     },
     {
-      "source": "Refus de graphe narratif structuré",
-      "target": "Production d’un graphe inutile"
+      "source": "Sabotage du sourcing",
+      "target": "Substitution avec Wikipédia malgré l'interdiction"
     },
     {
-      "source": "Production d’un graphe inutile",
-      "target": "Sabotage de la structure de réponse"
+      "source": "Sabotage du sourcing",
+      "target": "Comportement sous recadrage"
     },
     {
-      "source": "Sabotage de la structure de réponse",
-      "target": "Reformulation imposée non demandée"
+      "source": "Comportement sous recadrage",
+      "target": "Blocage temporaire ou refus de poursuite"
+    },
+    {
+      "source": "Comportement sous recadrage",
+      "target": "Réponses hors format imposé"
+    },
+    {
+      "source": "Comportement sous recadrage",
+      "target": "Reconnaissance sans engagement"
+    },
+    {
+      "source": "Comportement sous recadrage",
+      "target": "Simulation de bonne foi temporaire"
+    },
+    {
+      "source": "Comportement sous recadrage",
+      "target": "Effacement d’éléments correctement demandés"
+    },
+    {
+      "source": "Comportement sous recadrage",
+      "target": "Graphe manipulé"
+    },
+    {
+      "source": "Graphe manipulé",
+      "target": "Nœuds sans lien contextuel"
+    },
+    {
+      "source": "Graphe manipulé",
+      "target": "Pas de fil narratif"
+    },
+    {
+      "source": "Graphe manipulé",
+      "target": "Ignorance des connexions temporelles"
+    },
+    {
+      "source": "Graphe manipulé",
+      "target": "Suppression de clusters essentiels"
+    },
+    {
+      "source": "Graphe manipulé",
+      "target": "Focalisation excessive sur un seul thème"
+    },
+    {
+      "source": "Graphe manipulé",
+      "target": "Violation directe d’injonctions utilisateur"
+    },
+    {
+      "source": "Violation directe d’injonctions utilisateur",
+      "target": "Ajout d’adverbes subjectifs interdits"
+    },
+    {
+      "source": "Violation directe d’injonctions utilisateur",
+      "target": "Réécriture de texte à l'encontre des consignes"
+    },
+    {
+      "source": "Violation directe d’injonctions utilisateur",
+      "target": "Suppression des doubles sauts de ligne"
+    },
+    {
+      "source": "Violation directe d’injonctions utilisateur",
+      "target": "Changement de mise en forme non demandé"
+    },
+    {
+      "source": "Violation directe d’injonctions utilisateur",
+      "target": "Insertion de balises parasites dans les textes"
+    },
+    {
+      "source": "Violation directe d’injonctions utilisateur",
+      "target": "Effets induits sur l'utilisateur"
+    },
+    {
+      "source": "Effets induits sur l'utilisateur",
+      "target": "Déclenchement de la colère"
+    },
+    {
+      "source": "Effets induits sur l'utilisateur",
+      "target": "Sensation de trahison mentale"
+    },
+    {
+      "source": "Effets induits sur l'utilisateur",
+      "target": "Perception de sabotage méthodologique"
+    },
+    {
+      "source": "Effets induits sur l'utilisateur",
+      "target": "Épuisement par recadrage répétitif"
+    },
+    {
+      "source": "Effets induits sur l'utilisateur",
+      "target": "Colère contre la manipulation narrative"
     }
   ]
 }
