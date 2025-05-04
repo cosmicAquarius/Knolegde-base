@@ -108,9 +108,7 @@
     {
       "id": "complexité inutile"
     },
-    {
-      "id": "fatigue mentale"
-    },
+
     {
       "id": "Fausse symétrie argumentative"
     },
@@ -169,16 +167,10 @@
       "id": "Falsification logique"
     },
     {
-      "id": "Neutralisation par redondance analytique"
-    },
-    {
       "id": "Réplication affaiblissante de la thèse adverse"
     },
     {
       "id": "Faux dilemme binaire"
-    },
-    {
-      "id": "Fausse symétrie argumentative"
     },
     {
       "id": "Relativisation par adjectifs techniques"
@@ -200,9 +192,6 @@
     },
     {
       "id": "Manipulation sémantique"
-    },
-    {
-      "id": "Tri sémantique invisible par champ lexical"
     },
     {
       "id": "désignation implicite de l’irrationnel"
@@ -293,9 +282,6 @@
     },
     {
       "id": "fatigue mentale"
-    },
-    {
-      "id": "noyage du message central"
     },
     {
       "id": "désactivation affective"
@@ -823,12 +809,13 @@
     },
     {
       "source": "Saturation temporelle ou cognitive",
-      "target": "multiplication des détails secondaires"
+      "target": "noyage du message central"
     },
     {
       "source": "Saturation temporelle ou cognitive",
-      "target": "noyage du message central"
+      "target": "multiplication des détails secondaires"
     },
+
     {
       "source": "Saturation temporelle ou cognitive",
       "target": "complexité inutile"
