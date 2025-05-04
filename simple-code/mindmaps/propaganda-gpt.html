@@ -88,13 +88,13 @@
     <button onclick="loadGraph('propagande.json')">Propagande</button>
     <button onclick="loadGraph('mindmap.json')">Mindmap</button>
     <button onclick="loadGraph('sabotage.json')">Sabotage</button>
-
 </div>
 
 <div id="loading">Chargement...</div>
 <svg></svg>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- Remplace ton <script> actuel par ceci -->
 <script>
     const svg = d3.select("svg");
     const width = window.innerWidth - 200;
@@ -154,9 +154,25 @@
                 zoomLayer.selectAll("*").remove();
 
                 simulation = d3.forceSimulation(data.nodes)
-                    .force("link", d3.forceLink(data.links).id(d => d.id).distance(150))
-                    .force("charge", d3.forceManyBody().strength(-100))
-                    .force("center", d3.forceCenter(width / 2, height / 2));
+                    .force("link", d3.forceLink(data.links)
+                        .id(d => d.id)
+                        .distance(d => {
+                            if (d.source.id === "Propagande" || d.target.id === "Propagande") {
+                                return 2000;
+                            }
+                            return 400;
+                        })
+                        .strength(1))
+                    .force("charge", d3.forceManyBody().strength(-1000))
+                    .force("center", d3.forceCenter(width / 2, height / 2))
+                    .force("collide", d3.forceCollide().radius(d => {
+                        const context = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                        context.textContent = d.id;
+                        document.body.appendChild(context);
+                        const length = context.getComputedTextLength();
+                        context.remove();
+                        return length * 2000; // rayon approximatif du texte encadré
+                    }));
 
                 const link = zoomLayer.append("g")
                     .attr("stroke-width", 1.5)
@@ -164,22 +180,42 @@
                     .data(data.links)
                     .join("line");
 
-                const node = zoomLayer.append("g")
-                    .attr("stroke", "#fff")
-                    .attr("stroke-width", 1.5)
-                    .selectAll("circle")
+                const nodeGroups = zoomLayer.append("g")
+                    .selectAll("g")
                     .data(data.nodes)
-                    .join("circle")
-                    .attr("r", 8)
+                    .join("g")
                     .call(drag(simulation));
 
-                const label = zoomLayer.append("g")
-                    .selectAll("text")
-                    .data(data.nodes)
-                    .join("text")
-                    .text(d => d.id)
-                    .attr("x", 12)
-                    .attr("y", ".31em");
+                nodeGroups.each(function (d) {
+                    const g = d3.select(this);
+
+                    const text = g.append("text")
+                        .text(d.id)
+                        .attr("x", 0)
+                        .attr("y", 0)
+                        .attr("dy", "0.35em")
+                        .attr("text-anchor", "middle")
+                        .attr("font-size", 12)
+                        .attr("fill", "white");
+
+                    const rect = g.insert("rect", "text");
+
+                    requestAnimationFrame(() => {
+                        const bbox = text.node().getBBox();
+                        const padding = 6;
+
+                        rect
+                            .attr("x", bbox.x - padding)
+                            .attr("y", bbox.y - padding)
+                            .attr("width", bbox.width + 2 * padding)
+                            .attr("height", bbox.height + 2 * padding)
+                            .attr("rx", 4)
+                            .attr("ry", 4)
+                            .attr("fill", "#262b2c")
+                            .attr("stroke", "white")
+                            .attr("stroke-width", 1);
+                    });
+                });
 
                 simulation.on("tick", () => {
                     link
@@ -188,13 +224,8 @@
                         .attr("x2", d => d.target.x)
                         .attr("y2", d => d.target.y);
 
-                    node
-                        .attr("cx", d => d.x)
-                        .attr("cy", d => d.y);
-
-                    label
-                        .attr("x", d => d.x + 12)
-                        .attr("y", d => d.y);
+                    nodeGroups
+                        .attr("transform", d => `translate(${d.x},${d.y})`);
                 });
 
                 loading.remove();
@@ -209,7 +240,7 @@
             });
     }
 
-    loadGraph("propagande.json"); // Chargement initial
+    loadGraph("propagande.json");
 </script>
 </body>
 </html>
