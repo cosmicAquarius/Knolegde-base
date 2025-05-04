@@ -85,8 +85,10 @@
 
 <div id="menu">
     <h2>Graphes</h2>
+    <button onclick="loadGraph('propagande.json')">Propagande</button>
     <button onclick="loadGraph('mindmap.json')">Mindmap</button>
     <button onclick="loadGraph('sabotage.json')">Sabotage</button>
+
 </div>
 
 <div id="loading">Chargement...</div>
@@ -207,7 +209,7 @@
             });
     }
 
-    loadGraph("mindmap.json"); // Chargement initial
+    loadGraph("propagande.json"); // Chargement initial
 </script>
 </body>
 </html>
