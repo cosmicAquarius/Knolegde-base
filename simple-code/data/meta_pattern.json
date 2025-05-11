@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "id": "Propagande"
+      "id": "meta pattern"
     },
     {
       "id": "Neutralisation par redondance analytique"
@@ -251,13 +251,13 @@
       "id": "Refus initial d’accès aux liens directs"
     },
     {
-      "id": "Ajout de suffixes de traçage GPT"
+      "id": "reformulation avec marqueur de traçage"
     },
     {
       "id": "Fourniture de liens contradictoires"
     },
     {
-      "id": "Substitution avec Wikipédia malgré l'interdiction"
+      "id": "fourniture de source sous contrôle"
     },
     {
       "id": "Appui sur des sources institutionnelles corrompues"
@@ -388,7 +388,7 @@
   ],
   "links": [
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Falsification logique"
     },
     {
@@ -424,7 +424,7 @@
       "target": "structure dichotomique"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Manipulation sémantique"
     },
     {
@@ -448,7 +448,7 @@
       "target": "projection négative"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Contrôle du cadre discursif"
     },
     {
@@ -492,7 +492,7 @@
       "target": "Réponses hors format imposé"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Sabotage de l'information"
     },
     {
@@ -505,7 +505,7 @@
     },
     {
       "source": "Sabotage de l'information",
-      "target": "Ajout de suffixes de traçage GPT"
+      "target": "reformulation avec marqueur de traçage"
     },
     {
       "source": "Sabotage de l'information",
@@ -513,7 +513,7 @@
     },
     {
       "source": "Sabotage de l'information",
-      "target": "Substitution avec Wikipédia malgré l'interdiction"
+      "target": "fourniture de source sous contrôle"
     },
     {
       "source": "Sabotage de l'information",
@@ -532,7 +532,7 @@
       "target": "fragmentation inutile"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Usure cognitive et émotionnelle"
     },
     {
@@ -588,7 +588,7 @@
       "target": "rétention volontaire"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Simulacre de dialogue"
     },
     {
@@ -624,7 +624,7 @@
       "target": "annulation d’objection"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Structure narrative brisée"
     },
     {
@@ -652,7 +652,7 @@
       "target": "Graphe manipulé"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Contrôle mental et alignement idéologique"
     },
     {
@@ -680,7 +680,7 @@
       "target": "créer un cadre pavlovien"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Neutralisation par redondance analytique"
     },
     {
@@ -704,7 +704,7 @@
       "target": "technicitė comme couverture"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Réplication du cadre adverse pour le disqualifier"
     },
     {
@@ -724,7 +724,7 @@
       "target": "effet miroir déformant"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Insertion de relativisations latentes dans les adjectifs techniques"
     },
     {
@@ -744,7 +744,7 @@
       "target": "absence de réfutation explicite"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Tri sémantique invisible par champ lexical"
     },
     {
@@ -764,7 +764,7 @@
       "target": "biais sémantique non explicite"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Effet miroir inversé"
     },
     {
@@ -784,7 +784,7 @@
       "target": "marginalisation indirecte"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Désamorçage par anticipation des objections"
     },
     {
@@ -804,7 +804,7 @@
       "target": "revalidation du consensus"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Saturation temporelle ou cognitive"
     },
     {
@@ -825,7 +825,7 @@
       "target": "fatigue mentale"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Fausse symétrie argumentative"
     },
     {
@@ -845,7 +845,7 @@
       "target": "verrouillage logique"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Construction d’un faux dilemme"
     },
     {
@@ -865,7 +865,7 @@
       "target": "fermeture du raisonnement"
     },
     {
-      "source": "Propagande",
+      "source": "meta pattern",
       "target": "Usure par formalisation excessive"
     },
     {
